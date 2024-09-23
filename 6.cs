@@ -14,7 +14,6 @@ class space
         }
         Console.Write(count);
         return n;
-
     }
     public static void Main(string[] args)
     {
