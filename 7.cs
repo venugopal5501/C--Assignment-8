@@ -19,7 +19,6 @@ class matrices
         }
         for (int i = 0; i < row; i++)
         {
-            r[i] = 0;
             for (int j = 0; j < column; j++)
             {
                 r[i] = r[i] + arr[i, j];
@@ -30,16 +29,16 @@ class matrices
         for (int i = 0; i < row; i++)
         {
             for (int j = 0; j < column; j++)
-
             {
-                
                 c[j] = c[j] + arr[i, j];
             }
         }
+        Console.Write("The sum of row is : ");
         for (int i = 0; i < row; i++)
         {
             Console.Write(r[i] + " ");
         }
+        Console.Write("The sum of column is : ");
         for (int i = 0; i < column; i++)
         {
             Console.Write(c[i] + " ");
