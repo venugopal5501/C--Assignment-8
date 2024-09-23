@@ -22,8 +22,6 @@ class matrices
             for (int j = 0; j < column; j++)
             {
                 r[i] = r[i] + arr[i, j];
-
-
             }
         }
         for (int i = 0; i < row; i++)
