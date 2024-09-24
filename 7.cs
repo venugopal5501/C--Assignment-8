@@ -36,11 +36,13 @@ class matrices
         {
             Console.Write(r[i] + " ");
         }
+        Console.WriteLine();
         Console.Write("The sum of column is : ");
         for (int i = 0; i < column; i++)
         {
             Console.Write(c[i] + " ");
         }
+        Console.WriteLine();
 
     }
 }
